@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+/* header */
+.headercontainer .search {
+  display: none;
+}
+
+.image .text {
+  position: absolute;
+  z-index: 999;
+  bottom: 15em;
+  color: white;
+  left: 10%;
+}
+
+@media screen and (min-width:660px) {
+  .headercontainer .search {
+    display: flex;
+  }
+
+  .header {
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width:660px) {
+  .imag {
+    display: none;
+  }
+
+  .head {
+    flex-direction: column;
+  }
+
+  .location {
+    display: none;
+  }
+
+}
